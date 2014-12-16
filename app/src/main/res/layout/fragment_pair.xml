@@ -12,10 +12,10 @@
         android:layout_marginTop="96dp"
         android:background="@android:color/holo_red_light"
         android:padding="16dp"
-        android:text="PAIR"
+        android:text="Ice cream sandwich"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/white"
-        android:textSize="30sp" />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView1"
@@ -26,10 +26,10 @@
         android:layout_marginTop="32dp"
         android:background="@android:color/holo_red_light"
         android:padding="16dp"
-        android:text="PAIR"
+        android:text="Honeycomb"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/white"
-        android:textSize="30sp" />
+        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,8 +40,8 @@
         android:layout_marginTop="32dp"
         android:background="@android:color/holo_red_light"
         android:padding="16dp"
-        android:text="PAIR"
+        android:text="Gingerbread"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/white"
-        android:textSize="30sp" />
+        android:textSize="18sp" />
 </RelativeLayout>

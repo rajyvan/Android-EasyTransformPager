@@ -34,6 +34,7 @@ public class PairFragment extends AnimatedFragment {
         textView.setRotation(360 * (1 - offset));
         textView1.setTranslationX(-getView().getWidth() * offset * 0.25f);
         textView2.setAlpha(1-offset);
+        textView2.setTranslationX(getView().getWidth() * offset * 0.20f);
 
     }
 
