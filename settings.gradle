@@ -1,1 +1,1 @@
-include ':app', ':easytransformpager'
+include 'app', 'library'
