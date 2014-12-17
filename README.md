@@ -22,8 +22,7 @@ For a simple implementation, take a look at the "sample" directory.
               android:layout_width="match_parent"
               android:layout_height="match_parent" />
 
-3. Extend from AnimatedPagerAdapter.
-
+3. Extend from AnimatedPagerAdapter. It's a FragmentStatePagerAdapter. You should return a AnimatedFragment type.
         
         public class MyPagerAdapter extends AnimatedPagerAdapter {
               public MyPagerAdapter(FragmentManager fm) {
@@ -41,3 +40,15 @@ For a simple implementation, take a look at the "sample" directory.
                      return 10;
               }
         }
+
+4. For every AnimatedFragment, override the method transformPage(View view, float offset). View is the main view container that you inflate inside your fragment and offset represents the percentage of visibility of frgament page according to screen width. Offset equals 0 for invisible page, 1 for full visible page.
+
+        
+       @Override
+       public void transformPage(View view, float offset) {
+              // TODO
+              view.setTranslationY((float) ((1 - offset) * 0.32 * view.getWidth()) * offset);
+              view.setRotation(360 * offset);
+              view.setAlpha(1-offset);
+       }
+        
