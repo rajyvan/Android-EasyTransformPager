@@ -41,7 +41,9 @@ For a simple implementation, take a look at the "sample" directory.
               }
         }
 
-4. For every AnimatedFragment, override the method transformPage(View view, float offset). View is the main view container that you inflate inside your fragment and offset represents the percentage of visibility of frgament page according to screen width. Offset equals 0 for invisible page, 1 for full visible page.
+4. For every AnimatedFragment, override the method transformPage(View view, float offset). 
+   <br>View is the main view container that you inflate inside your fragment.
+   <br>Offset represents the percentage of visibility of frgament page according to screen width. Offset equals 0 for invisible page, 1 for full visible page.
 
         
        @Override
@@ -52,3 +54,7 @@ For a simple implementation, take a look at the "sample" directory.
               view.setAlpha(1-offset);
        }
         
+
+Changelog
+==========================
+Current version : 1.0
