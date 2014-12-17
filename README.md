@@ -6,12 +6,38 @@ Making amazing animation with ViewPager is not ever a pain!
 <br>
 ![Let's see below](/docs/easytransformpager.gif?raw=true "Optional Title")
 
-Use
+Usage
 ==========================
 For a simple implementation, take a look at the "sample" directory.
 
 1. Include the library as a local library porject or add the dependence in your build.gradle.
        
         dependencies {
-            compile 'mg.yra.lib.easytransformpager:EasyTransformPager-1.0.aar'
+            compile 'com.github.rajyvan:EasyTransformPager:1.0'
+        }
+
+2. Include the EasyTransformPager in your layout. It should replace the android support ViewPager.
+       <mg.yra.lib.sample.AnimatedViewPager
+            android:id="@+id/titles"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" />
+
+3. Extend from AnimatedPagerAdapter.
+
+        
+        public class MyPagerAdapter extends AnimatedPagerAdapter {
+              public MyPagerAdapter(FragmentManager fm) {
+                     super(fm);
+              }
+        
+              @Override
+              public AnimatedFragment getItem(int position) {
+                     // TODO
+                     return null;
+              }
+        
+              @Override
+              public int getCount() {
+                     return 10;
+              }
         }
