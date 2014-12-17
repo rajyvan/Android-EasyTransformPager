@@ -49,6 +49,8 @@ For a simple implementation, take a look at the "sample" directory.
         @Override
         public void transformPage(View view, float offset) {
                // TODO
+               // Example
+              view.findViewById(R.id.textView).setAlpha(1-offset);
               view.setTranslationY((float) ((1 - offset) * 0.32 * view.getWidth()) * offset);
               view.setRotation(360 * offset);
               view.setAlpha(1-offset);
