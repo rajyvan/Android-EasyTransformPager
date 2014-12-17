@@ -45,15 +45,16 @@ For a simple implementation, take a look at the "sample" directory.
    <br>View is the main view container that you inflate inside your fragment.
    <br>Offset represents the percentage of visibility of frgament page according to screen width. Offset equals 0 for invisible page, 1 for full visible page.
 
-        
-       @Override
-       public void transformPage(View view, float offset) {
-              // TODO
+        //Set the pager with an adapter
+        @Override
+        public void transformPage(View view, float offset) {
+               // TODO
               view.setTranslationY((float) ((1 - offset) * 0.32 * view.getWidth()) * offset);
               view.setRotation(360 * offset);
               view.setAlpha(1-offset);
        }
-        
+       
+          
 
 Changelog
 ==========================
