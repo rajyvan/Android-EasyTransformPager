@@ -1,13 +1,13 @@
-package mg.yra.lib.sample.activity;
+package mg.yra.easytransformpager.sample.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import mg.yra.lib.sample.AnimatedViewPager;
-import mg.yra.lib.sample.R;
-import mg.yra.lib.sample.adapter.MyPagerAdapter;
+import mg.yra.lib.AnimatedViewPager;
+import mg.yra.easytransformpager.sample.R;
+import mg.yra.easytransformpager.sample.adapter.MyPagerAdapter;
 
 
 public class MainActivity extends FragmentActivity {

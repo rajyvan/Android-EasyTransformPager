@@ -1,4 +1,4 @@
-package mg.yra.lib.sample.fragment;
+package mg.yra.easytransformpager.sample.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import mg.yra.lib.sample.AnimatedFragment;
-import mg.yra.lib.sample.R;
+import mg.yra.lib.AnimatedFragment;
+import mg.yra.easytransformpager.sample.R;
 
 /**
  * Created by Yvan on 09/12/14.
@@ -33,7 +33,7 @@ public class ImpairFragment extends AnimatedFragment {
 
         textView.setTranslationY((float) ((1 - offset) * 0.32 * view.getWidth()) * offset);
         textView1.setRotation(360 * offset);
-        textView.setAlpha(1-offset);
+        textView.setAlpha(1 - offset);
         textView2.setTranslationY((float) (-(1 - offset) * 0.50 * getView().getWidth()) * offset);
 
     }
