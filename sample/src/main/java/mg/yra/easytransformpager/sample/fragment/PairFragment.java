@@ -1,4 +1,4 @@
-package mg.yra.lib.sample.fragment;
+package mg.yra.easytransformpager.sample.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import mg.yra.lib.sample.AnimatedFragment;
-import mg.yra.lib.sample.R;
+import mg.yra.lib.AnimatedFragment;
+import mg.yra.easytransformpager.sample.R;
 
 /**
  * Created by Yvan on 09/12/14.
@@ -33,7 +33,7 @@ public class PairFragment extends AnimatedFragment {
 
         textView.setRotation(360 * (1 - offset));
         textView1.setTranslationX(-getView().getWidth() * offset * 0.25f);
-        textView2.setAlpha(1-offset);
+        textView2.setAlpha(1 - offset);
         textView2.setTranslationX(getView().getWidth() * offset * 0.20f);
 
     }

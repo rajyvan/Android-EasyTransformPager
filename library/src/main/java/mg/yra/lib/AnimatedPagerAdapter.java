@@ -1,4 +1,4 @@
-package mg.yra.lib.sample;
+package mg.yra.lib;
 
 import android.os.Bundle;
 import android.os.Parcelable;

@@ -1,11 +1,11 @@
-package mg.yra.lib.sample.adapter;
+package mg.yra.easytransformpager.sample.adapter;
 
 import android.support.v4.app.FragmentManager;
 
-import mg.yra.lib.sample.AnimatedFragment;
-import mg.yra.lib.sample.AnimatedPagerAdapter;
-import mg.yra.lib.sample.fragment.ImpairFragment;
-import mg.yra.lib.sample.fragment.PairFragment;
+import mg.yra.lib.AnimatedFragment;
+import mg.yra.lib.AnimatedPagerAdapter;
+import mg.yra.easytransformpager.sample.fragment.ImpairFragment;
+import mg.yra.easytransformpager.sample.fragment.PairFragment;
 
 /**
  * Created by Yvan on 09/12/14.

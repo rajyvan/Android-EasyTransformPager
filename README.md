@@ -18,7 +18,7 @@ For a simple implementation, take a look at the "sample" directory.
 
 2. Include the EasyTransformPager in your layout. It should replace the android support ViewPager.
       
-             <mg.yra.lib.sample.AnimatedViewPager
+             <mg.yra.easytransformpager.sample.AnimatedViewPager
               android:layout_height="match_parent"
               android:layout_width="match_parent" />
 

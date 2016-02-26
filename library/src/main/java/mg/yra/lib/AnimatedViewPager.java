@@ -1,4 +1,4 @@
-package mg.yra.lib.sample;
+package mg.yra.lib;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

@@ -1,6 +1,5 @@
-<mg.yra.lib.sample.AnimatedViewPager xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<mg.yra.lib.AnimatedViewPager
     android:id="@+id/pager"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" />
+    android:layout_height="match_parent"/>
