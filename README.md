@@ -13,7 +13,7 @@ For a simple implementation, take a look at the "sample" directory.
 1. Include the library as a local library porject or add the dependence in your build.gradle.
        
         dependencies {
-            compile 'com.github.rajyvan:EasyTransformPager:1.0'
+            compile 'com.github.rajyvan:EasyTransformPager:1.1'
         }
 
 2. Include the EasyTransformPager in your layout. It should replace the android support ViewPager.
