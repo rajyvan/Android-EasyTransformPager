@@ -60,7 +60,7 @@ For a simple implementation, take a look at the "sample" directory.
 
 Changelog
 ==========================
-Current version : 1.0
+Current version : 1.1
 
 Developed by
 ==========================
