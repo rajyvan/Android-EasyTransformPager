@@ -5,7 +5,7 @@ Making amazing animation with ViewPager is not ever a pain!
 <br>
 <br>
 
-! [Let's see below](/docs/easytransformpager.gif?raw=true "Optional Title")
+! [Let's see below](/docs/easytransformpager.gif)
 
 Usage
 ==========================
